@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/tosinsanda/NumberGuessGame10.git'
+                git branch: 'main', url: 'https://github.com/ManLikeLight/NumberGuessGameT10.git'
             }
         }
         stage('Code Quality Check') {
